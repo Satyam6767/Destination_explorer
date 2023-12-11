@@ -1,10 +1,13 @@
+
+
+
 // src/index.js
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css'; // Import your global styles here
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import App from './App'; // Your main App component
 
 ReactDOM.render(
   <React.StrictMode>
